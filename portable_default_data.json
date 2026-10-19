@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "لابتوب Dell",
+      "sku": "DELL-001",
+      "category": "electronics",
+      "purchasePrice": 2500,
+      "sellingPrice": 3200,
+      "stock": 15,
+      "minStock": 3,
+      "unit": "قطعة",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p2",
+      "name": "طابعة HP",
+      "sku": "HP-002",
+      "category": "electronics",
+      "purchasePrice": 450,
+      "sellingPrice": 650,
+      "stock": 8,
+      "minStock": 2,
+      "unit": "قطعة",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p3",
+      "name": "ورق A4",
+      "sku": "PAPER-001",
+      "category": "general",
+      "purchasePrice": 18,
+      "sellingPrice": 28,
+      "stock": 200,
+      "minStock": 50,
+      "unit": "رزمة",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p4",
+      "name": "قلم حبر",
+      "sku": "PEN-001",
+      "category": "general",
+      "purchasePrice": 2,
+      "sellingPrice": 5,
+      "stock": 500,
+      "minStock": 100,
+      "unit": "قطعة",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "name": "أحمد محمد",
+      "phone": "059-1234567",
+      "email": "ahmed@example.com",
+      "address": "رام الله، شارع الإرسال",
+      "type": "customer",
+      "balance": 850,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c2",
+      "name": "شركة النجاح",
+      "phone": "059-7654321",
+      "email": "info@najah.com",
+      "address": "نابلس، المركز التجاري",
+      "type": "both",
+      "balance": -1200,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c3",
+      "name": "فاطمة علي",
+      "phone": "059-9876543",
+      "type": "customer",
+      "balance": 0,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "sales": [],
+  "purchases": [],
+  "payments": [],
+  "expenses": [],
+  "settings": {
+    "companyName": "شركة الأمانة للتجارة",
+    "companyPhone": "02-2345678",
+    "companyAddress": "رام الله، فلسطين",
+    "taxRate": 0,
+    "currency": "₪"
+  }
+}
