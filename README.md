@@ -1,42 +1,44 @@
 # Comprehensive Accounting Software 📊💼
 
-تطبيق ويب محاسبي متكامل وحديث يُساعد الشركات والأفراد على إدارة العمليات المالية، قيود اليومية، الأرباح، وتصدير التقارير إلى Excel بسهولة ودقة.
+A modern, all-in-one accounting web application that helps businesses and individuals manage financial operations, journal entries, and profits, and export reports to Excel with ease and accuracy.
 
-[🌐 رابط التجريب المباشر (Live Demo)](https://3bdallah2004.github.io/Comprehensive-Accounting-Software/)
-
----
-
-## ✨ المميزات الرئيسية (Features)
-- 📈 **حساب الأرباح والتقارير المالية:** معالجة وحساب الأرباح والعمليات المالية بدقة (`profit.ts`).
-- 📊 **تصدير وإستيراد ملفات Excel:** إمكانية تصدير البيانات والتقارير المحاسبية إلى ملفات Excel بسهولة (`excel.ts`)[cite: 1].
-- 🎨 **واجهة مستخدم عصرية وسريعة:** مبنية باستخدام React و Vite لتوفير تجربة مستخدم سلسة[cite: 1].
-- ⚙️ **دعم التشغيل المحمول (Portable Support):** يحتوي على سكريبتات لتشغيل النظام كنسخة محمولة دون الحاجة لتثبيت معقد (`make_portable.bat`, `portable_run.bat`)[cite: 1].
-- 🖥️ **دعم الخادم الخلفي (Backend Integration):** وجود خوادم جاهزة بلغة Python و Node.js (`server.py`, `server.js`)[cite: 1].
+[🌐 Live Demo](https://3bdallah2004.github.io/Comprehensive-Accounting-Software/)
 
 ---
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
+## ✨ Key Features
 
-### Front-End:
-- **React** (TypeScript)[cite: 1]
-- **Vite** (كـ Build Tool سريع)[cite: 1]
-- **Tailwind CSS / CSS3**[cite: 1]
-
-### Back-End / Utilities:
-- **Node.js** (`server.js`)[cite: 1]
-- **Python** (`server.py`)[cite: 1]
-- **TypeScript** لمراعاة دقة وتنسيق البيانات المالية (`types.ts`, `format.ts`)[cite: 1]
+- 📈 **Profit Calculations and Financial Reports:** Accurately processes and calculates profits and financial transactions (`profit.ts`).
+- 📊 **Excel Import and Export:** Easily import and export accounting data and reports (`excel.ts`).
+- 🎨 **Modern, Fast User Interface:** Built with React and Vite for a smooth user experience.
+- ⚙️ **Portable Mode:** Includes scripts for running the system as a portable application without a complex installation (`make_portable.bat`, `portable_run.bat`).
+- 🖥️ **Backend Integration:** Includes backend server implementations in Python and Node.js (`server.py`, `server.js`).
 
 ---
 
-## 💻 كيفية التشغيل والتطوير محلياً (Getting Started)
+## 🛠️ Technology Stack
 
-### المتطلبات الأساسية:
-- تثبيت [Node.js](https://nodejs.org/) على جهازك.
+### Frontend
+- **React** with TypeScript
+- **Vite** as the build tool
+- **Tailwind CSS** and CSS3
 
-### خطوات التشغيل:
+### Backend and Utilities
+- **Node.js** (`server.js`)
+- **Python** (`server.py`)
+- **TypeScript** for reliable financial data handling (`types.ts`, `format.ts`)
 
-1. **استنساخ المستودع (Clone Repository):**
+---
+
+## 💻 Getting Started
+
+### Prerequisite
+- [Node.js](https://nodejs.org/)
+
+### Run Locally
+
+1. **Clone the repository:**
+
    ```bash
-   git clone https://github.3bdallah2004/Comprehensive-Accounting-Software.git
+   git clone https://github.com/3bdallah2004/Comprehensive-Accounting-Software.git
    cd Comprehensive-Accounting-Software
